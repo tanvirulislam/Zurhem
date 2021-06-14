@@ -144,10 +144,10 @@ public function pmenu($slug){
      public function cart()  {
         $cartCollection = \Cart::getContent();
         
- return Response()->json([
-        'status' => 'success',
-        'card' => $cartCollection
-    ], 200);
+        return Response()->json([
+                'status' => 'success',
+                'card' => $cartCollection
+            ], 200);
     }
 
      public function add(Request$request){

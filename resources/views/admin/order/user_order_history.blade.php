@@ -26,9 +26,7 @@ order history
   <div class="container-fluid">
    <div class="row clearfix">
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <!-- @if (Auth::guard('admin')->user()->can('size.create')) -->
-      <!-- <a href="{{ route('admin.size.create') }}" type="button"  class="btn btn-raised btn-primary waves-effect" >Add size</a> -->
-      <!-- @endif -->
+      
     </div>
 
   </div>
